@@ -157,7 +157,7 @@
 						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 					>
 						You can contact me at
-						<a href={DATA.contact.social.email.url} class="text-blue-500 hover:underline">
+						<a href={DATA.contact.email} class="text-blue-500 hover:underline">
 							My email.
 						</a> 
 					</p>

@@ -6,9 +6,6 @@ import GithubDarkSvg from '$lib/imgs/github-dark.svg';
 import GoogleScholarSvg from '$lib/imgs/googlescholar.svg';
 import GoogleScholarDarkSvg from '$lib/imgs/googlescholar.svg';
 
-import GmailSvg from '$lib/imgs/gmail.svg';
-import GmailDarkSvg from '$lib/imgs/gmail-dark.svg';
-
 import LinkedinSvg from '$lib/imgs/linkedin.svg';
 import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
 
@@ -48,8 +45,7 @@ export const DATA = {
 		{ href: '/', icon: HomeIcon, label: 'Home' },
 	],
 	contact: {
-		email: 'sihem.bouhenniche@gmail.com',
-		tel: '+123456789',
+		email: 'mailto:sihem.bouhenniche@gmail.com',
 		social: {
 			GitHub: {
 				name: 'GitHub',
@@ -75,28 +71,13 @@ export const DATA = {
 				navbar: true,
 				dark_icon: TwitterDarkSvg
 			},
-			PeerList: {
+			Scholar: {
 				name: 'Google Scholar',
 				url: 'https://scholar.google.com/citations?user=oA2y9_IAAAAJ&hl=fr&oi=ao',
 				// // icon: Icons.x,
 				icon: GoogleScholarSvg,
 				navbar: true,
 				dark_icon: GoogleScholarDarkSvg
-			},
-			// Youtube: {
-			// 	name: 'Youtube',
-			// 	url: 'https://github.com/SikandarJODD',
-			// 	// // icon: Icons.youtube,
-			// 	icon: Youtube,
-			// 	navbar: true
-			// },
-			email: {
-				name: 'Send Email',
-				url: 'mailto:sihem.bouhenniche@gmail.com',
-				// // icon: Icons.email,
-				icon: GmailSvg,
-				navbar: false,
-				dark_icon: GmailDarkSvg
 			}
 		}
 	},
