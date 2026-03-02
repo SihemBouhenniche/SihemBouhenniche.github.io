@@ -17,6 +17,7 @@ import TwitterDarkSvg from '$lib/imgs/x-dark.svg';
 
 import UnivLille from '$lib/imgs/univ.png';
 import EsiImg from '$lib/imgs/esi.png';
+import MeImg from '$lib/imgs/me.jpg';
 import InriaImg from '$lib/imgs/Logo-Inria.png';
 import OkImg from '$lib/imgs/ok.png';
 import DataFirstImg from '$lib/imgs/datafirst.webp';
@@ -28,14 +29,13 @@ export const DATA = {
 	name: 'Sihem Bouhenniche',
 	initials: 'SB',
 	url: 'https://github.com/SihemBouhenniche/',
-	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
 	location: 'Lille, France',
 	locationLink: 'https://www.google.com/maps/place/lille',
 	description:
 		'Cybersecurity and Privacy PhD researcher - Android device fingerprinting.',
 	summary:
 		'My name is Sihem Bouhenniche. I am currently pursuing a PhD. in cybersecurity at the University of Lille, with a focus on user privacy protection. My research centers around privacy and security issues related to mobile devices, particularly Android device fingerprinting. </br> I am also a member of the Spirals research team at Inria Lille. Before starting my PhD, I worked with the team for two years as a research engineer. During that time, I contributed to the development of amiunique.org, a popular browser fingerprinting platform that accounts around 2,000 visits per day. <br> I graduated from the Higher School of Computer Science of Algiers (ESI - Oued Smar) with both a Software Engineering degree and a Master’s degree. I also worked as a frontend developer at Ouedkniss.com, the largest e-commerce platform in Algeria, where I helped redesign the platform\'s interface and contributed to various new projects.',
-	avatarUrl: 'https://media.licdn.com/dms/image/v2/D4E03AQH2Xb71tD0QpQ/profile-displayphoto-shrink_800_800/B4EZZnsNsvHEAg-/0/1745496376166?e=1767225600&v=beta&t=jNqeAcOdllKFLrWbfmPQzYCiYStvrki1oyg11xNqZI8',
+	avatarUrl: MeImg,
 	skills: [
 		'Android Device Fingerprinting',
 		'Android Security Mechanisms',
