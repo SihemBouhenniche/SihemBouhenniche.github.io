@@ -109,6 +109,14 @@ export const DATA = {
 	],
 	publications: [
 		{
+			school: 'Sihem Bouhenniche, Pierre Laperdrix and Walter Rudametkin \nProceedings of the 26th Privacy Enhancing Technologies Symposium (PETS 2026) ',
+			href: '#',
+			degree: 'EXADPrinter: Semi-Exhaustive Permissionless Device Fingerprinting Within the Android Ecosystem',
+			logoUrl: '',
+			start: '2026',
+			end: ''
+		},
+		{
 			school: 'Boudjedar, S., Bouhenniche, S., Mokeddem, H., & Benachour, H. (2020, December). Automatic human resources ontology generation from the data of an e-recruitment platform. In Research Conference on Metadata and Semantics Research (pp. 97-109). Cham: Springer International Publishing.',
 			href: 'https://link.springer.com/chapter/10.1007/978-3-030-71903-6_10',
 			degree: 'Automatic Human Resources Ontology Generation from the Data of an E-Recruitment Platform',
