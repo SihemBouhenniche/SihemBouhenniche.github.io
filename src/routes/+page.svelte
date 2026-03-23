@@ -90,6 +90,7 @@
 						href={edu.href}
 						company={edu.degree}
 						title={edu.school}
+						description={edu.description}
 						start={edu.start}
 						end={edu.end}
 					/>
