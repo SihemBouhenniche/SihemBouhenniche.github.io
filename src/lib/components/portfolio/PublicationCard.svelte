@@ -52,17 +52,7 @@
 				{/if}
 			</div>
 			{#if description}
-				{#if isExpanded}
-					<div
-						class="mt-2 text-xs sm:text-sm"
-						transition:slide={{
-							duration: 700,
-							easing: quartOut
-						}}
-					>
-						{description}
-					</div>
-				{/if}
+				<div class="mt-2 text-xs sm:text-sm"> {description} </div>
 			{/if}
 		</div>
 	</div>
