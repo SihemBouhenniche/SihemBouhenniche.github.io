@@ -90,6 +90,8 @@
 						href={edu.href}
 						company={edu.degree}
 						title={edu.school}
+						start={edu.start}
+						end={edu.end}
 					/>
 				</BlurFade>
 			{/each}
