@@ -79,22 +79,6 @@
 			{/each}
 		</div>
 	</section>
-	<section id="hackathons">
-		<div class="w-full space-y-6 py-3">
-			<BlurFade delay={BLUR_FADE_DELAY}>
-				<h2 class="text-xl font-bold">Experience</h2>
-			</BlurFade>
-			<BlurFade delay={BLUR_FADE_DELAY * 2}>
-				<ul class="mb-4 ml-4 divide-y divide-dashed border-l">
-					{#each DATA.hackathons as project}
-						<BlurFade delay={BLUR_FADE_DELAY}>
-							<HackathonCard {...project} />
-						</BlurFade>
-					{/each}
-				</ul>
-			</BlurFade>
-		</div>
-	</section>
 	<section id="publications">
 		<div class="flex min-h-0 flex-col gap-y-3">
 			<BlurFade delay={BLUR_FADE_DELAY}>
@@ -109,6 +93,22 @@
 					/>
 				</BlurFade>
 			{/each}
+		</div>
+	</section>
+	<section id="hackathons">
+		<div class="w-full space-y-6 py-3">
+			<BlurFade delay={BLUR_FADE_DELAY}>
+				<h2 class="text-xl font-bold">Experience</h2>
+			</BlurFade>
+			<BlurFade delay={BLUR_FADE_DELAY * 2}>
+				<ul class="mb-4 ml-4 divide-y divide-dashed border-l">
+					{#each DATA.hackathons as project}
+						<BlurFade delay={BLUR_FADE_DELAY}>
+							<HackathonCard {...project} />
+						</BlurFade>
+					{/each}
+				</ul>
+			</BlurFade>
 		</div>
 	</section>
 	<section id="skills">
