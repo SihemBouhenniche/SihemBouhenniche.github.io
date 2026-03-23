@@ -48,7 +48,7 @@
 					</h3>
 				</div>
 				{#if title}
-					<div class="font-sans text-xs">{title}</div>
+					<div class="font-sans text-xs">{@html title}</div>
 				{/if}
 			</div>
 			{#if description}
