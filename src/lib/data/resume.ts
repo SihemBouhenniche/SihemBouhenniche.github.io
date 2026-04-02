@@ -113,18 +113,12 @@ export const DATA = {
 			description: 'Proceedings of the 26th Privacy Enhancing Technologies Symposium PETS - Calgary 2026',
 			href: '#',
 			degree: 'EXADPrinter: Semi-Exhaustive Permissionless Device Fingerprinting Within the Android Ecosystem',
-			logoUrl: '',
-			start: 'PETS',
-			end: '2026'
 		},
 		{
 			school: 'Sabrina Boudjedar*, <strong>Sihem Bouhenniche*</strong>, Hakim Mokeddem & Hamid Benachour',
-			description: 'Metadata and Semantic Research MTSR - Madrid 2020',
+			description: 'Proceedings of the 14th Metadata and Semantic Research Conference MTSR - Madrid 2020',
 			href: 'https://link.springer.com/chapter/10.1007/978-3-030-71903-6_10',
 			degree: 'Automatic Human Resources Ontology Generation from the Data of an E-Recruitment Platform',
-			logoUrl: '',
-			start: 'MTSR',
-			end: '2020'
 		},
 	],
 	projects: [
