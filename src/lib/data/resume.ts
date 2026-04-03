@@ -111,8 +111,19 @@ export const DATA = {
 		{
 			school: '<strong>Sihem Bouhenniche*</strong>, Pierre Laperdrix & Walter Rudametkin',
 			description: 'Proceedings of the 26th Privacy Enhancing Technologies Symposium PETS - Calgary 2026',
-			href: '#',
 			degree: 'EXADPrinter: Semi-Exhaustive Permissionless Device Fingerprinting Within the Android Ecosystem',
+			links: [
+				{
+					title: 'Link to paper',
+					icon: Paperclip,
+					href: '#'
+				},
+				{
+					title: 'Best Student Paper Award (Runner-Up)',
+					icon: Paperclip,
+					href: 'https://petsymposium.org/2026/student-paper-award.php'
+				},
+			]
 		},
 		{
 			school: 'Sabrina Boudjedar*, <strong>Sihem Bouhenniche*</strong>, Hakim Mokeddem & Hamid Benachour',
@@ -120,7 +131,7 @@ export const DATA = {
 			degree: 'Automatic Human Resources Ontology Generation from the Data of an E-Recruitment Platform',
 			links: [
 				{
-					title: 'Paper',
+					title: 'Link to paper',
 					icon: Paperclip,
 					href: 'https://link.springer.com/chapter/10.1007/978-3-030-71903-6_10'
 				},
