@@ -96,6 +96,20 @@
 			{/each}
 		</div>
 	</section>
+	<section id="skills">
+		<div class="flex min-h-0 flex-col gap-y-3">
+			<BlurFade delay={BLUR_FADE_DELAY}>
+				<h2 class="text-xl font-bold">Interests</h2>
+			</BlurFade>
+			<div class="flex flex-wrap gap-1">
+				{#each DATA.skills as skill, id}
+					<BlurFade delay={BLUR_FADE_DELAY * id + 0.002}>
+						<Badge>{skill}</Badge>
+					</BlurFade>
+				{/each}
+			</div>
+		</div>
+	</section>
 	<section id="hackathons">
 		<div class="w-full space-y-6 py-3">
 			<BlurFade delay={BLUR_FADE_DELAY}>
@@ -110,20 +124,6 @@
 					{/each}
 				</ul>
 			</BlurFade>
-		</div>
-	</section>
-	<section id="skills">
-		<div class="flex min-h-0 flex-col gap-y-3">
-			<BlurFade delay={BLUR_FADE_DELAY}>
-				<h2 class="text-xl font-bold">Interests</h2>
-			</BlurFade>
-			<div class="flex flex-wrap gap-1">
-				{#each DATA.skills as skill, id}
-					<BlurFade delay={BLUR_FADE_DELAY * id + 0.002}>
-						<Badge>{skill}</Badge>
-					</BlurFade>
-				{/each}
-			</div>
 		</div>
 	</section>
 	<section id="projects">
