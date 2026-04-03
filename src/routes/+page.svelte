@@ -87,12 +87,10 @@
 			{#each DATA.publications as edu, id}
 				<BlurFade delay={BLUR_FADE_DELAY * 1.2 + id * 0.05}>
 					<PublicationCard
-						href={edu.href}
 						company={edu.degree}
 						title={edu.school}
 						description={edu.description}
-						start={edu.start}
-						end={edu.end}
+						links={edu.links}
 					/>
 				</BlurFade>
 			{/each}
