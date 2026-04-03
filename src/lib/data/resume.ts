@@ -117,8 +117,14 @@ export const DATA = {
 		{
 			school: 'Sabrina Boudjedar*, <strong>Sihem Bouhenniche*</strong>, Hakim Mokeddem & Hamid Benachour',
 			description: 'Proceedings of the 14th Metadata and Semantic Research Conference MTSR - Madrid 2020',
-			href: 'https://link.springer.com/chapter/10.1007/978-3-030-71903-6_10',
 			degree: 'Automatic Human Resources Ontology Generation from the Data of an E-Recruitment Platform',
+			links: [
+				{
+					title: 'Paper',
+					icon: Paperclip,
+					href: 'https://link.springer.com/chapter/10.1007/978-3-030-71903-6_10'
+				},
+			]
 		},
 	],
 	projects: [
