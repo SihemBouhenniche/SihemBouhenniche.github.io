@@ -116,7 +116,7 @@ export const DATA = {
 				{
 					title: 'Link to paper',
 					icon: Paperclip,
-					href: '#'
+					href: 'https://hal.science/hal-05585898'
 				},
 				{
 					title: 'Best Student Paper Award (Runner-Up)',
