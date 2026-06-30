@@ -151,7 +151,7 @@ export const DATA = {
 				}
 			]
 		},
-	]
+	],
 	projects: [
 		{
 			title: 'Publish Your Android Library to GitLab Registry with CI/CD Pipeline',
