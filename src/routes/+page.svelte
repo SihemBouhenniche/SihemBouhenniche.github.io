@@ -96,6 +96,23 @@
 			{/each}
 		</div>
 	</section>
+	<section id="underReview">
+		<div class="flex min-h-0 flex-col gap-y-3">
+			<BlurFade delay={BLUR_FADE_DELAY}>
+				<h2 class="text-xl font-bold">Under Review</h2>
+			</BlurFade>
+			{#each DATA.underReview as edu, id}
+				<BlurFade delay={BLUR_FADE_DELAY * 1.2 + id * 0.05}>
+					<PublicationCard
+						company={edu.degree}
+						title={edu.school}
+						description={edu.description}
+						links={edu.links}
+					/>
+				</BlurFade>
+			{/each}
+		</div>
+	</section>
 	<section id="skills">
 		<div class="flex min-h-0 flex-col gap-y-3">
 			<BlurFade delay={BLUR_FADE_DELAY}>
