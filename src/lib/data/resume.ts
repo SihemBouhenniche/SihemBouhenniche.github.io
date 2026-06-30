@@ -109,18 +109,6 @@ export const DATA = {
 	],
 	publications: [
 		{
-			school: 'Iliana Fayolle*, <strong>Sihem Bouhenniche*</strong>, Samuel Pélissier, Pierre Laperdrix, Clémentine Maurice, Walter Rudametkin',
-			description: 'arXiv CS - 2026',
-			degree: 'On the Internet, Nobody Knows You\'re an LLM Bot: Unmasking Web Agents with Multi-Layer Fingerprinting',
-			links: [
-				{
-					title: 'Link to paper',
-					icon: Paperclip,
-					href: 'https://arxiv.org/abs/2606.30119'
-				}
-			]
-		},
-		{
 			school: '<strong>Sihem Bouhenniche*</strong>, Pierre Laperdrix & Walter Rudametkin',
 			description: 'Proceedings of the 26th Privacy Enhancing Technologies Symposium PETS - Calgary 2026',
 			degree: 'EXADPrinter: Semi-Exhaustive Permissionless Device Fingerprinting Within the Android Ecosystem',
@@ -150,6 +138,20 @@ export const DATA = {
 			]
 		},
 	],
+	underReview: [
+		{
+			school: 'Iliana Fayolle*, <strong>Sihem Bouhenniche*</strong>, Samuel Pélissier, Pierre Laperdrix, Clémentine Maurice, Walter Rudametkin',
+			description: 'arXiv CS - 2026',
+			degree: 'On the Internet, Nobody Knows You\'re an LLM Bot: Unmasking Web Agents with Multi-Layer Fingerprinting',
+			links: [
+				{
+					title: 'Link to paper',
+					icon: Paperclip,
+					href: 'https://arxiv.org/abs/2606.30119'
+				}
+			]
+		},
+	]
 	projects: [
 		{
 			title: 'Publish Your Android Library to GitLab Registry with CI/CD Pipeline',
