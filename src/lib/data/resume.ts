@@ -129,7 +129,7 @@ export const DATA = {
 		{
 			school: '<strong>Sihem Bouhenniche*</strong>, Pierre Laperdrix & Walter Rudametkin',
 			description: 'the 25th Workshop on Privacy in the Electronic Society (WPES) - The Hagues 2026',
-			degree: '“From Permissionless to Permission-Based Fingerprinting: Quantifying the Impact of Android Permissions on Device Fingerprinting',
+			degree: 'From Permissionless to Permission-Based Fingerprinting: Quantifying the Impact of Android Permissions on Device Fingerprinting',
 			links: [
 			]
 		},
