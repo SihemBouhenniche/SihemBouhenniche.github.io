@@ -29,7 +29,7 @@ export const DATA = {
 	location: 'Lille, France',
 	locationLink: 'https://www.google.com/maps/place/lille',
 	description:
-		'Cybersecurity and Privacy PhD researcher - Android device fingerprinting.',
+		'Cybersecurity and Privacy PhD researcher - Privacy Risks of Fingerprinting Techniques in Mobile and Web Ecosystems.',
 	summary:
 		'My name is Sihem Bouhenniche. I am currently pursuing a PhD. in cybersecurity at the University of Lille, with a focus on user privacy protection. My research centers around privacy and security issues related to mobile devices, particularly Android device fingerprinting. </br> I am also a member of the Spirals research team at Inria Lille. Before starting my PhD, I worked with the team for two years as a research engineer. During that time, I contributed to the development of amiunique.org, a popular browser fingerprinting platform that accounts around 2,000 visits per day. <br> I graduated from the Higher School of Computer Science of Algiers (ESI - Oued Smar) with both a Software Engineering degree and a Master’s degree. I also worked as a frontend developer at Ouedkniss.com, the largest e-commerce platform in Algeria, where I helped redesign the platform\'s interface and contributed to various new projects.',
 	avatarUrl: MeImg,
@@ -40,6 +40,7 @@ export const DATA = {
 		'Browser Fingerprinting',
 		'Network Measurment',
 		'Bot Detection',
+		'Online Tracking'
 	],
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
@@ -110,7 +111,7 @@ export const DATA = {
 	publications: [
 		{
 			school: '<strong>Sihem Bouhenniche*</strong>, Pierre Laperdrix & Walter Rudametkin',
-			description: 'Proceedings of the 26th Privacy Enhancing Technologies Symposium PETS - Calgary 2026',
+			description: 'Proceedings of the 26th Privacy Enhancing Technologies Symposium (PETS) - Calgary 2026',
 			degree: 'EXADPrinter: Semi-Exhaustive Permissionless Device Fingerprinting Within the Android Ecosystem',
 			links: [
 				{
@@ -126,8 +127,15 @@ export const DATA = {
 			]
 		},
 		{
+			school: '<strong>Sihem Bouhenniche*</strong>, Pierre Laperdrix & Walter Rudametkin',
+			description: 'the 25th Workshop on Privacy in the Electronic Society (WPES) - The Hagues 2026',
+			degree: '“From Permissionless to Permission-Based Fingerprinting: Quantifying the Impact of Android Permissions on Device Fingerprinting',
+			links: [
+			]
+		},
+		{
 			school: 'Sabrina Boudjedar*, <strong>Sihem Bouhenniche*</strong>, Hakim Mokeddem & Hamid Benachour',
-			description: 'Proceedings of the 14th Metadata and Semantic Research Conference MTSR - Madrid 2020',
+			description: 'Proceedings of the 14th Metadata and Semantic Research Conference (MTSR) - Madrid 2020',
 			degree: 'Automatic Human Resources Ontology Generation from the Data of an E-Recruitment Platform',
 			links: [
 				{
